@@ -1,61 +1,61 @@
-# Divi Express LLC — Site Institucional
+# Divi Express LLC — Corporate Website
 
-Site institucional da **Divi Express LLC**, empresa especializada na venda, importação e comercialização de veículos de qualidade. Conteúdo em inglês, com tom formal e adequado para análise bancária e compliance.
+Corporate website for **Divi Express LLC**, a company specialized in the sale, importation, and commercialization of high-quality vehicles. Content in English, with a formal tone suitable for banking analysis and compliance.
 
-## Sobre o projeto
+## About the Project
 
-- **Página única** com seções: Company Overview, Our Services, End-to-End Process, Transparency and Compliance, Mission and Vision, About Us, How We Operate, Core Values e Our Commitment.
-- **Linguagem objetiva**, sem claims financeiros; disclaimer explícito de que a empresa não oferece financiamento, crédito ou atua como credora.
-- **Identificação legal** no footer (LLC registrada nos EUA) e **schema JSON-LD** (`LimitedLiabilityCompany`) para classificação e SEO.
+- **Single-page website** with sections: Company Overview, Our Services, End-to-End Process, Transparency and Compliance, Mission and Vision, About Us, How We Operate, Core Values, and Our Commitment.
+- **Objective language**, no financial claims; explicit disclaimer that the company does not provide financing, credit services, or act as a lender.
+- **Legal identification** in the footer (LLC registered in the United States) and **JSON-LD schema** (`LimitedLiabilityCompany`) for classification and SEO.
 
-## Estrutura do repositório
+## Repository Structure
 
 ```
 souzaglobal/
-├── index.html      # Página principal
-├── styles.css      # Estilos globais, responsividade, tema
-├── main.js         # Menu mobile, botão voltar ao topo, scroll reveal
+├── index.html      # Main page
+├── styles.css      # Global styles, responsiveness, theme
+├── main.js         # Mobile menu, back-to-top button, scroll reveal
 ├── assets/
-│   ├── logo.jpeg       # Logo da empresa
-│   └── hero-index.png  # Imagem de fundo do hero
+│   ├── logo.jpeg       # Company logo
+│   └── hero-index.png  # Hero background image
 └── README.md
 ```
 
-## Tecnologias
+## Technologies
 
-- **HTML5** — semântico, acessível (ARIA, skip link)
-- **CSS3** — variáveis, layout responsivo, `prefers-reduced-motion`
-- **JavaScript** — menu mobile, back-to-top, animações de revelação ao scroll
+- **HTML5** — Semantic, accessible (ARIA, skip link)
+- **CSS3** — CSS variables, responsive layout, `prefers-reduced-motion` support
+- **JavaScript** — Mobile menu, back-to-top button, scroll reveal animations
 
-## Como rodar localmente
+## Running Locally
 
-Não há build. Basta abrir o `index.html` no navegador ou usar um servidor local:
+No build process required. Simply open `index.html` in a browser or use a local server:
 
 ```bash
-# Opção 1: Python 3
+# Option 1: Python 3
 python3 -m http.server 8000
 
-# Opção 2: Node.js (npx)
+# Option 2: Node.js (npx)
 npx serve .
 
-# Opção 3: PHP
+# Option 3: PHP
 php -S localhost:8000
 ```
 
-Acesse `http://localhost:8000` (ou a porta indicada).
+Access `http://localhost:8000` (or the indicated port).
 
-## SEO e metadados
+## SEO and Metadata
 
-- Meta description, Open Graph e Twitter Cards configurados
-- URL canônica definida
-- JSON-LD com `@type`: `LimitedLiabilityCompany`, `areaServed`, `knowsAbout`
+- Meta description, Open Graph, and Twitter Cards configured
+- Canonical URL defined
+- JSON-LD with `@type`: `LimitedLiabilityCompany`, `areaServed`, `knowsAbout`
 
-## Acessibilidade
+## Accessibility
 
-- Link “Skip to main content”
-- Atributos ARIA no menu e botões
-- Animações respeitam `prefers-reduced-motion: reduce`
+- "Skip to main content" link
+- ARIA attributes on menu and buttons
+- Animations respect `prefers-reduced-motion: reduce`
 
-## Licença e direitos
+## License and Rights
 
 © Divi Express LLC. All rights reserved.
